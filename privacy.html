@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Minh Đài Music</title>
+  <meta name="description" content="Minh Đài Music — Vietnamese music channel @VietAIVibes.">
+  <style>
+:root {
+  --bg: #f4efe6;
+  --paper: #fffaf2;
+  --ink: #1c1814;
+  --muted: #6b645b;
+  --line: #e3d8c8;
+  --accent: #8c3b28;
+  --accent-soft: #f3e4dc;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { color-scheme: light; }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(1200px 500px at 50% -80px, #fff8ee 0%, transparent 70%),
+    var(--bg);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+.wrap {
+  width: min(720px, calc(100% - 2.5rem));
+  margin: 0 auto;
+}
+header {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.wordmark {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Palatino Linotype", Palatino, "Iowan Old Style", "Noto Serif", Georgia, serif;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+}
+.wordmark:hover { text-decoration: none; color: var(--accent); }
+nav { display: flex; gap: 1.15rem; font-size: 0.92rem; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover, nav a[aria-current="page"] { color: var(--ink); }
+main { flex: 1; padding: 3.25rem 0 4rem; }
+h1 {
+  font-family: "Palatino Linotype", Palatino, "Iowan Old Style", "Noto Serif", Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2.1rem, 5vw, 3.1rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+h2 {
+  font-family: "Palatino Linotype", Palatino, "Iowan Old Style", "Noto Serif", Georgia, serif;
+  font-weight: 500;
+  font-size: 1.35rem;
+  margin: 2rem 0 0.6rem;
+}
+.lede {
+  margin-top: 0.85rem;
+  color: var(--muted);
+  font-size: 1.15rem;
+}
+.actions { margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 0.8rem 1.1rem; align-items: center; }
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fffaf2;
+  text-decoration: none;
+  padding: 0.7rem 1.15rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+.btn:hover { filter: brightness(1.08); text-decoration: none; }
+.meta {
+  margin-top: 2.4rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.meta a { color: var(--ink); }
+article p + p { margin-top: 0.95rem; }
+article ul { margin: 0.6rem 0 0 1.2rem; }
+article li { margin: 0.25rem 0; }
+.date { color: var(--muted); margin: 0.55rem 0 1.5rem; font-size: 0.95rem; }
+footer {
+  padding: 1.3rem 0 2rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+code { font-size: 0.9em; }
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  main { padding: 2.4rem 0 3rem; }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap brand">
+      <a class="wordmark" href="index.html">Minh Đài Music</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <article>
+        <h1>Privacy Policy</h1>
+        <p class="date">VietAIVibes Uploader · Effective November 25, 2026</p>
+        <p>This privacy policy describes how the <strong>VietAIVibes Uploader</strong> app handles information. The app is a private tool used only by the owner of the YouTube channel <a href="https://www.youtube.com/@VietAIVibes">@VietAIVibes</a> to upload the owner’s own videos to that channel.</p>
+
+        <h2>Who this app is for</h2>
+        <p>The app is not offered to the public. It does not provide accounts for anyone other than the channel owner, and it does not collect information from other people.</p>
+
+        <h2>YouTube Data API</h2>
+        <p>The app uses the YouTube Data API with these scopes:</p>
+        <ul>
+          <li><code>youtube.upload</code> — to upload videos to the owner’s channel</li>
+          <li><code>youtube.readonly</code> — to confirm the signed-in channel before an upload</li>
+        </ul>
+        <p>Use of the YouTube Data API is also subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+        <h2>Information we store</h2>
+        <p>When the channel owner signs in with Google, the app receives OAuth tokens so it can upload on the owner’s behalf. Those tokens are stored privately on the owner’s machine. They are never shared, sold, or transferred to third parties.</p>
+        <p>The app does not collect, store, or sell personal data from other users.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy can be sent to <a href="mailto:vietaivibes@gmail.com">vietaivibes@gmail.com</a>.</p>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>Minh Đài Music · @VietAIVibes</span>
+      <span><a href="mailto:vietaivibes@gmail.com">vietaivibes@gmail.com</a></span>
+    </div>
+  </footer>
+</body>
+</html>
